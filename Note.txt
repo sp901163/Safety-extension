@@ -1,0 +1,19 @@
+You need to create all file with "same name" as given like popup.js etc because chrome understand this file only with this name like 
+popup.js,popup.html and manifest.json
+3 file with icon.png is must to run ur extension in chrome browser properly.
+
+Note:This is cross platform extension so it run in edge,chrome,firefox,safari etc because all browser understand manifest.json file,popup.js etc
+bootstrap.min.css is bootstrap file to provide good look to ur extension nothing else.
+
+Note:
+In extension manifest.json is used for load ur html file in chrome as extension.
+In popup.html and popup.js we write logic and GUI code.
+Extension is nothing but small html page that set.
+If we add extension in browser then functionality of brower get increases like open camera and voice recording this feature not available in chrome directly so we use 
+extension.
+
+Note: This is standard formate of extension development so follow it "as it is".
+
+How run Chrome Extension in browser?
+-Create folder and create chrome extension inside it. 
+-Open chrome->setting->extension->developer mode->load unpacked->select whole folder->ok.

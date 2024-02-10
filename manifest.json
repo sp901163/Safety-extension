@@ -1,0 +1,25 @@
+{
+  "manifest_version":2,//version of manifest. 2 is latest version of manifest 
+  "name":"Safety",//name of extension
+  "version":"1.0",// version of ur extension. u can type any version name like v1,1.1 etc
+  "description":"This is a Website Security Checker",//description of ur extension
+  "author":"oston code cypher",//name of creater
+  "icons":
+   {
+    "128":"icon.png"//icon of ur extension when it start
+   },
+  
+  "browser_action":
+   {
+    "default_popup":"popup.html",//html file to load 
+    "default_icon":"icon.png",
+    "default_title":"Safety"//title of extension
+   },
+  
+  "permissions":["activeTab"],////"microphone"//"tabs"mean permited for new tab open,"tabCapture"mean permited for new tab hold,"downloads" mean permited for downloaded file,"storage" mean permited for store on hard drive.
+  
+  "background":
+   {
+    "scripts":["popup.js"]
+   }
+}
